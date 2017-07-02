@@ -1,0 +1,20 @@
+{
+  "name": "countmeup",
+  "version": "1.0.0",
+  "description": "Count me up with firebase",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/api/firebase.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duc nhan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.0",
+    "express-firebase-middleware": "^1.0.0",
+    "firebase-admin": "^4.2.1",
+    "promise": "^8.0.0"
+  }
+}

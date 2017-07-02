@@ -1,0 +1,10 @@
+version: '2'
+services:
+    node:
+        build: .
+        env_file: .env
+        volumes:
+        - .:/code
+        ports:
+        - "8081:8081"
+
