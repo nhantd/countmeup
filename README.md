@@ -3,7 +3,7 @@
 ## Instructions to run 
 
 To run
-
+  - Rename .env.example  to '.env' (which has the sample config for a sample firebase data)
     npm instart
     npm start
 
